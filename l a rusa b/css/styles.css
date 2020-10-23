@@ -1,0 +1,105 @@
+.titulo{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 100px;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    position: relative;
+    left: 0px;
+    animation-name: animacion1;
+    /* prefijos para dif navegadores */
+    -moz-animation-name: animacion1;
+    -o-animation-name: animacion1;
+    -webkit-animation-name: animacion1;
+    /* siempre tienen que ir los prefijos y sin prefijos */
+    animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    -o-animation-duration: 4s;
+    -webkit-animation-duration: 4s;
+    animation-iteration-count: 6s;
+}
+
+.back-nav{
+    padding-top:1px;
+    background:#9d65c9;
+}
+
+p,h2,h4,h1{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+h4{
+    color:white;
+}
+
+a{
+    transform: scale(1);
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+a:hover{
+ transform: scale(1.1);
+ transition-duration: 1s;
+ transition-timing-function:ease-in;
+}
+
+.img{
+    border-radius:20px;
+}
+
+g-font{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+@keyframes animacion1{
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: 50px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+.icon{
+    color:violet;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.icon:hover{
+    transform: scale(1.5);
+ transition-duration: 1s;
+ transition-timing-function:ease-in;
+ opacity: 0.8;
+}
+
+.imagen{
+    transform: scale(1);
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+
+.titulo-fondo{
+    background:#fddb3a;
+}
+
+.fondo{
+    background-image: url(/images/fondo.jpg);
+}
+
+.container{
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background:black;
+    color:white;
+}
+
+.back-card{
+    background:black;
+}
+
